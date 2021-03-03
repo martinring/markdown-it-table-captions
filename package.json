@@ -8,8 +8,17 @@
     "build": "esbuild src/index.ts --outdir=dist --format=esm",
     "build:cjs": "esbuild src/index.ts --outfile=cjs/index.js --format=cjs",
     "test": "npm run build && nyc mocha"
+  },  
+
+  "homepage": "https://github.com/martinring/markdown-it-table-captions",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martinring/markdown-it-table-captions.git"
   },
-  "author": "Martin Ring <martin.ring@dfki.de>",
+  "bugs": {
+    "url": "https://github.com/martinring/markdown-it-table-captions/issues"
+  },
+  "author": "Martin Ring <mail@martinring.de>",
   "license": "MIT",
   "devDependencies": {
     "@types/markdown-it": "^12.0.1",
