@@ -1,0 +1,241 @@
+table without caption
+.
+| A | B |
+|---|---|
+| 1 | 2 |
+.
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+.
+
+
+simple caption above
+.
+Table: some caption
+
+| A | B | C |
+|---|---|---|
+| 1 | 2 | 3 |
+.
+<table>
+<caption>some caption</caption>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+.
+
+
+simple caption below
+.
+| A | B | C |
+|---|---|---|
+| 1 | 2 | 3 |
+
+Table: some caption
+.
+<table>
+<caption>some caption</caption>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+.
+
+
+simple caption below (alternative syntax)
+.
+| A | B | C |
+|---|---|---|
+| 1 | 2 | 3 |
+
+: some caption
+.
+<table>
+<caption>some caption</caption>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+.
+
+
+invalid caption below
+.
+| A | B | C |
+|---|---|---|
+| 1 | 2 | 3 |
+
+table: some caption
+.
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p>table: some caption</p>
+.
+
+
+simple caption below with blank lines
+.
+| A | B | C |
+|---|---|---|
+| 1 | 2 | 3 |
+
+
+
+
+
+
+
+Table: some caption
+.
+<table>
+<caption>some caption</caption>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+.
+
+
+complex caption above with multiple blank lines
+.
+Table: some caption *with* **inline** [markdown](mardown.com)
+spanning
+multiple
+lines
+
+
+
+
+
+| A | B | C |
+|---|---|---|
+| 1 | 2 | 3 |
+.
+<table>
+<caption>some caption <em>with</em> <strong>inline</strong> <a href="mardown.com">markdown</a>
+spanning
+multiple
+lines</caption>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+.
+
+
+complex caption below
+.
+| A | B | C |
+|---|---|---|
+| 1 | 2 | 3 |
+
+Table: some caption *with* **inline** [markdown](mardown.com)
+spanning
+multiple
+lines
+.
+<table>
+<caption>some caption <em>with</em> <strong>inline</strong> <a href="mardown.com">markdown</a>
+spanning
+multiple
+lines</caption>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+.
+
+
