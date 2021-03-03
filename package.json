@@ -1,9 +1,10 @@
 {
   "name": "markdown-it-table-captions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pandoc compatible table captions for markdown-it",
   "type": "module",
   "module": "dist/index.js",
+  "keywords": ["markdown-it-plugin","table_captions","markdown-it"],
   "scripts": {
     "build": "esbuild src/index.ts --outdir=dist --format=esm",
     "build:cjs": "esbuild src/index.ts --outfile=cjs/index.js --format=cjs",
