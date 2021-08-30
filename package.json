@@ -7,7 +7,7 @@
   "keywords": ["markdown-it-plugin","table_captions","markdown-it"],
   "scripts": {    
     "build": "esbuild src/index.ts --outdir=dist --format=esm",
-    "build:cjs": "esbuild src/index.ts --outfile=cjs/index.js --format=cjs",
+    "build:cjs": "esbuild src/index.ts --outfile=cjs/index.cjs --format=cjs",
     "test": "npm run build && nyc mocha"
   },  
 
